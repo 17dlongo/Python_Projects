@@ -1,0 +1,89 @@
+symbol,name,close_price,volume,vol_vs_avg,change_in_percent,days_old
+XPER,Xperi Corporation ,33.7,1259587,2.88,3.69,404
+CCC,Calgon Carbon Corporation,15.6,780565,2.71,4.0,404
+NCR,NCR Corporation,40.86,3213776,2.67,0.47,413
+NVRO,Nevro Corp.,82.39,1955104,2.27,11.43,413
+CNHI,CNH Industrial N.V.,11.6,3322056,1.77,0.26,403
+TU,Telus Corporation,34.44,638436,1.48,0.06,408
+WEB,"Web.com Group, Inc.",24.0,568113,1.46,-0.21,404
+CAE,CAE Inc.,17.45,382239,1.43,1.57,404
+SEIC,SEI Investments Company,54.09,790431,1.4,0.86,409
+HAIN,"The Hain Celestial Group, Inc.",38.19,3211028,1.37,-0.39,417
+WEN,Wendy's Company (The),15.59,3797394,1.22,1.3,404
+JUNO,"Juno Therapeutics, Inc.",31.24,2269796,1.18,6.8,414
+PYPL,"PayPal Holdings, Inc.",54.61,9798135,1.17,3.29,406
+NUVA,"NuVasive, Inc.",76.96,845146,1.17,1.65,413
+BWXT,"BWX Technologies, Inc.",48.97,860180,1.15,0.76,410
+KBH,KB Home,23.85,2770617,1.11,0.08,414
+KEM,Kemet Corporation,13.54,1013282,1.1,6.78,414
+KEYS,Keysight Technologies Inc.,39.15,1188517,1.08,1.14,414
+FIS,"Fidelity National Information Services, Inc.",86.11,1646107,1.07,0.77,418
+STZ,"Constellation Brands, Inc.",193.92,1450438,1.04,1.14,408
+STE,STERIS Corporation,82.39,608276,1.02,1.09,408
+KTOS,"Kratos Defense & Security Solutions, Inc.",11.82,1303467,1.01,2.16,414
+PGR,Progressive Corporation (The),44.76,2891156,1.0,1.02,412
+VC,Visteon Corporation,103.97,349206,1.0,2.64,407
+TEL,TE Connectivity,78.84,1398032,0.95,0.88,408
+SYK,Stryker Corporation,139.74,1040930,0.93,1.1,408
+FNF,"Fidelity National Financial, Inc.",44.69,1240623,0.92,0.4,418
+UGP,Ultrapar Participacoes S.A.,23.64,558979,0.91,0.42,407
+HSIC,"Henry Schein, Inc.",183.68,339544,0.91,0.94,416
+XRAY,DENTSPLY International Inc.,65.08,1053801,0.89,0.7,404
+LH,Laboratory Corporation of America Holdings,153.33,687658,0.89,1.14,414
+LTM,LATAM Airlines Group S.A.,11.64,467672,0.89,5.43,42
+CELG,Celgene Corporation,133.2,3659470,0.88,2.32,404
+ABT,Abbott Laboratories,48.7252,5637207,0.86,0.6,368
+ATR,"AptarGroup, Inc.",87.29,243907,0.85,0.24,406
+CHTR,"Charter Communications, Inc.",335.11,1341910,0.82,1.96,404
+AAL,"American Airlines Group, Inc.",51.26,5157496,0.82,1.73,407
+UBS,UBS AG,17.36,2089161,0.81,0.23,407
+CCL,Carnival Corporation,66.54,2513841,0.81,1.98,404
+BIIB,Biogen Idec Inc.,277.71,1306694,0.8,1.9,410
+DHI,"D.R. Horton, Inc.",34.63,2742762,0.8,0.79,402
+LNTH,"Lantheus Holdings, Inc.",18.45,703103,0.8,5.13,410
+MFC,Manulife Financial Corporation,18.92,1989712,0.8,0.32,413
+AMGN,Amgen Inc.,174.26,2823764,0.79,0.84,407
+QSII,"Quality Systems, Inc.",17.18,249429,0.78,1.06,410
+TEX,Terex Corporation,37.68,1383704,0.77,1.34,408
+LEG,"Leggett & Platt, Incorporated",52.71,710176,0.76,0.51,414
+CUK,Carnival Plc ADS ADS,66.77,197429,0.75,1.77,402
+KAMN,Kaman Corporation,50.5,223537,0.75,0.98,414
+PRAH,"PRA Health Sciences, Inc.",75.23,385976,0.75,1.84,411
+LGIH,"LGI Homes, Inc.",40.49,250738,0.74,1.33,414
+IPGP,IPG Photonics Corporation,148.37,235693,0.74,2.27,415
+TMHC,Taylor Morrison Home Corporation,24.05,1070674,0.74,0.88,408
+NTNX,"Nutanix, Inc. ",19.5,2798540,0.73,1.35,197
+UHS,"Universal Health Services, Inc.",122.32,509153,0.72,0.64,407
+BMY,Bristol-Myers Squibb Company,56.35,5886464,0.72,0.14,405
+DLPH,Delphi Automotive plc,87.9,1479484,0.71,0.11,402
+OMAM,OM Asset Management plc,14.96,652628,0.71,1.29,413
+ALXN,"Alexion Pharmaceuticals, Inc.",125.05,2455251,0.7,3.28,407
+LUV,Southwest Airlines Company,63.16,3098019,0.69,1.76,413
+PKI,"PerkinElmer, Inc.",68.25,425083,0.68,0.77,411
+IR,Ingersoll-Rand plc (Ireland),92.16,1101500,0.68,0.79,415
+TOL,Toll Brothers Inc.,39.5312,1209143,0.65,0.71,408
+AKAM,"Akamai Technologies, Inc.",50.95,1770144,0.64,1.72,407
+VRX,"Valeant Pharmaceuticals International, Inc.",17.14,16270288,0.63,1.0,407
+HUM,Humana Inc.,242.32,948217,0.62,1.41,416
+EVHC,"Envision Healthcare Holdings, Inc.",62.29,914377,0.61,1.45,400
+BAX,Baxter International Inc.,60.71,1782850,0.59,0.78,405
+BEN,"Franklin Resources, Inc.",45.24,1289993,0.59,0.38,405
+BZH,"Beazer Homes USA, Inc.",13.51,323848,0.57,-0.44,404
+ALL,Allstate Corporation (The),88.81,1040865,0.57,0.2,407
+WDR,"Waddell & Reed Financial, Inc.",18.9683,886684,0.54,1.36,404
+BDX,"Becton, Dickinson and Company",196.98,1064385,0.51,1.21,405
+EXAS,Exact Sciences Corporation,36.07,1879357,0.49,4.76,400
+ELY,Callaway Golf Company,12.68,523077,0.48,0.48,400
+BEL,Belmond Ltd.,13.2,151862,0.47,0.76,405
+CW,Curtiss-Wright Corporation,92.77,125766,0.47,0.87,402
+MDXG,"MiMedx Group, Inc",15.26,733806,0.47,1.87,413
+CVNA,Carvana Co.,21.18,631270,0.47,10.26,53
+AMN,AMN Healthcare Services Inc,38.75,289937,0.46,0.0,406
+IIVI,II-VI Incorporated,34.7,286071,0.43,1.17,416
+MTH,Meritage Homes Corporation,42.05,125106,0.43,0.0,413
+NWL,Newell Rubbermaid Inc.,53.7,1674496,0.42,0.47,413
+TAL,TAL Education Group,123.93,314856,0.41,2.15,408
+ALGN,"Align Technology, Inc.",151.94,551948,0.39,1.95,407
+WATT,Energous Corporation,16.33,115296,0.33,1.55,404
+KRNT,Kornit Digital Ltd.,19.55,130106,0.32,2.36,414
+MIME,Mimecast Limited,26.53,102820,0.26,1.8,414

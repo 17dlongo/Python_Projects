@@ -1,0 +1,5 @@
+symbol,name,close_price,volume,vol_vs_avg,change_in_percent,days_old
+IART,Integra LifeSciences Holdings Corporation,53.21,556691,1.05,-0.84,400
+BLL,Ball Corporation,42.16,2096800,0.88,-0.33,407
+AXP,American Express Company,84.3,2147047,0.66,-0.04,407
+MOD,Modine Manufacturing Company,16.55,125841,0.36,-0.3,415

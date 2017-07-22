@@ -1,0 +1,86 @@
+symbol,name,close_price,volume,vol_vs_avg,change_in_percent,days_old
+PRO,"PROS Holdings, Inc.",29.47,586374,2.31,1.03,411
+CDK,"CDK Global, Inc.",63.57,2035001,2.1,1.45,404
+CBSH,"Commerce Bancshares, Inc.",58.22,734554,1.94,3.52,404
+FRAC,"Keane Group, Inc.",15.82,1722515,1.82,1.93,121
+LITE,Lumentum Holdings Inc.,64.05,2791060,1.53,6.13,414
+TV,Grupo Televisa S.A.,26.22,2057611,1.34,1.59,408
+CRS,Carpenter Technology Corporation,37.75,344520,1.33,0.24,403
+ARW,"Arrow Electronics, Inc.",79.96,591582,1.3,0.5,406
+CENX,Century Aluminum Company,16.44,2659626,1.25,5.12,404
+PTCT,"PTC Therapeutics, Inc.",19.18,984117,1.22,2.51,411
+CVI,CVR Energy Inc.,22.3,631563,1.17,1.5,402
+AGCO,AGCO Corporation,69.68,703982,1.16,0.97,407
+MSGN,The Madison Square Garden Company,23.3,581348,1.12,1.3,413
+TS,Tenaris S.A.,32.42,2320812,1.11,1.66,408
+POT,Potash Corporation of Saskatchewan Inc.,17.44,5877513,1.09,1.93,411
+SF,Stifel Financial Corporation,47.32,481084,1.07,1.31,409
+LXU,"LSB Industries, Inc.",10.99,339700,1.05,4.37,413
+DEPO,"Depomed, Inc.",10.84,1667091,1.04,4.53,402
+WNC,Wabash National Corporation,22.34,773376,1.0,0.72,404
+SFM,"Sprouts Farmers Market, Inc.",23.83,2498389,0.99,1.79,409
+PVH,PVH Corp.,113.29,1037572,0.98,1.31,411
+CF,"CF Industries Holdings, Inc.",29.51,4243724,0.97,2.04,404
+RBC,Regal Beloit Corporation,84.6,251141,0.97,0.48,410
+UFS,Domtar Corporation,38.65,497854,0.95,1.93,407
+CNX,CONSOL Energy Inc.,15.74,2787701,0.94,0.96,403
+REI,"Ring Energy, Inc.",13.19,416955,0.94,3.37,410
+GPI,"Group 1 Automotive, Inc.",65.06,257316,0.93,4.21,417
+DCI,"Donaldson Company, Inc.",46.66,483219,0.9,0.84,402
+FINL,"The Finish Line, Inc.",14.37,1495638,0.9,2.57,418
+AR,Antero Resources Corporation,21.84,3205838,0.87,0.92,406
+RDUS,"Radius Health, Inc.",48.35,901135,0.85,2.5,410
+PH,Parker-Hannifin Corporation,164.84,934783,0.84,0.63,412
+NXST,"Nexstar Broadcasting Group, Inc.",61.75,714348,0.84,1.98,413
+PBI,Pitney Bowes Inc.,15.38,1279063,0.83,1.45,412
+RTEC,"Rudolph Technologies, Inc.",24.55,216953,0.83,0.41,409
+AKR,Acadia Realty Trust,28.0,438388,0.82,1.52,407
+ADS,Alliance Data Systems Corporation,264.57,496826,0.81,1.65,407
+AEL,American Equity Investment Life Holding Compa,27.41,463598,0.79,0.96,407
+IIVI,II-VI Incorporated,37.65,454809,0.79,2.45,416
+HUBB,Hubbell Inc,115.08,234349,0.78,0.16,417
+FII,"Federated Investors, Inc.",29.1,586200,0.78,1.18,418
+CAA,"CalAtlantic Group, Inc.",36.9,1042002,0.76,0.82,404
+ENLC,"EnLink Midstream, LLC",17.6,297504,0.76,-0.28,418
+PGTI,"PGT, Inc.",12.85,189211,0.76,0.39,412
+BBL,BHP Billiton plc Sponsored ADR,33.56,1167274,0.74,0.72,405
+BAC,Bank of America Corporation,24.62,54758812,0.73,1.11,405
+EOG,"EOG Resources, Inc.",91.81,2472927,0.72,1.37,418
+MTZ,"MasTec, Inc.",45.9,545186,0.72,0.55,413
+TEX,Terex Corporation,38.48,1235459,0.72,1.48,408
+AJG,Arthur J. Gallagher & Co.,57.56,620302,0.71,1.21,368
+NWL,Newell Rubbermaid Inc.,53.45,2615153,0.71,0.81,413
+TXT,Textron Inc.,49.19,932128,0.69,0.78,408
+CAL,"Caleres, Inc.",27.37,212206,0.68,3.13,404
+MOS,Mosaic Company (The),23.85,3152624,0.67,1.19,413
+CHSP,Chesapeake Lodging Trust,24.81,194293,0.66,0.32,404
+CDEV,"Centennial Resource Development, Inc.",15.54,1084110,0.65,0.84,277
+MDC,"M.D.C. Holdings, Inc.",36.14,367049,0.65,0.47,413
+XRAY,DENTSPLY International Inc.,64.89,773549,0.64,0.76,404
+AYI,Acuity Brands Inc (Holding Company),203.39,503821,0.64,2.63,405
+SCHN,"Schnitzer Steel Industries, Inc.",25.85,294469,0.62,0.98,409
+UNT,Unit Corporation,18.53,408287,0.61,2.77,407
+CTB,Cooper Tire & Rubber Company,36.9,401966,0.61,1.93,403
+MAS,Masco Corporation,38.84,1388428,0.6,0.47,413
+MPC,Marathon Petroleum Corporation,53.84,2613960,0.6,0.15,413
+KRG,Kite Realty Group Trust,18.88,519260,0.6,1.56,414
+CHD,"Church & Dwight Company, Inc.",52.0,865111,0.58,0.19,404
+FRT,Federal Realty Investment Trust,126.67,321734,0.55,1.0,418
+TECK,Teck Resources Ltd ,19.13,2557398,0.54,1.22,408
+WPZ,Williams Partners L.P.,40.59,652200,0.53,0.47,404
+ENLK,"EnLink Midstream Partners, LP",16.92,316489,0.51,0.24,418
+STAY,"Extended Stay America, Inc.",19.28,1455102,0.5,0.63,408
+PI,"Impinj, Inc.",53.47,378169,0.49,1.4,247
+GTN,"Gray Communications Systems, Inc.",14.05,422214,0.48,0.72,417
+TTEK,"Tetra Tech, Inc.",46.35,172024,0.48,0.54,408
+SKT,"Tanger Factory Outlet Centers, Inc.",26.47,1014766,0.48,2.28,408
+VSTO,Vista Outdoor Inc.,22.78,617798,0.48,2.15,404
+SSP,E.W. Scripps Company (The),18.27,284565,0.44,1.11,408
+TGP,Teekay LNG Partners L.P.,16.7,163864,0.43,4.38,408
+AROC,"Archrock, Inc.",11.35,229111,0.4,1.79,407
+PLYA,Playa Hotels & Resorts N.V. ,11.94,147561,0.37,0.84,86
+ETSY,"Etsy, Inc.",15.18,950361,0.35,1.67,418
+AL,Air Lease Corporation,38.7,345870,0.34,0.73,407
+RPT,Ramco-Gershenson Properties Trust,13.14,420064,0.29,1.78,409
+APO,"Apollo Global Management, LLC",27.19,299967,0.26,0.67,368
+ATNX,"Athenex, Inc.",18.72,80978,0.25,3.48,21

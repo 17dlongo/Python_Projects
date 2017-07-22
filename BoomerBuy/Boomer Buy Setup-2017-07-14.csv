@@ -1,0 +1,7 @@
+symbol,name,close_price,volume,vol_vs_avg,change_in_percent,days_old
+CG,The Carlyle Group L.P.,20.4,617442,0.79,0.74,406
+WERN,"Werner Enterprises, Inc.",29.45,437982,0.67,0.17,406
+RE,"Everest Re Group, Ltd.",263.75,287839,0.61,-0.03,412
+VLRS,"Controladora Vuela Compania de Aviacion, S.A.",15.75,259063,0.59,0.13,409
+WEB,"Web.com Group, Inc.",25.2,206723,0.5,0.2,406
+CAE,CAE Inc.,17.69,100959,0.34,0.0,406

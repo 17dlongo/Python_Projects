@@ -1,0 +1,54 @@
+symbol,name,close_price,volume,vol_vs_avg,change_in_percent,days_old
+ACIW,"ACI Worldwide, Inc.",22.97,985807,2.05,5.22,407
+WTFC,Wintrust Financial Corporation,77.3,584831,1.41,-0.32,404
+TLLP,Tesoro Logistics LP,51.75,498028,1.41,3.44,408
+TRMB,Trimble Navigation Limited,37.01,1066790,1.16,0.73,408
+RDUS,"Radius Health, Inc.",48.16,1339808,1.13,5.75,410
+OLLI,"Ollie's Bargain Outlet Holdings, Inc.",42.3,827195,1.1,3.05,406
+CLNS,"Colony NorthStar, Inc.",14.5,3475267,1.06,0.97,403
+XHR,"Xenia Hotels & Resorts, Inc.",19.65,769668,1.04,0.82,404
+PTCT,"PTC Therapeutics, Inc.",19.86,830407,1.02,5.53,411
+TEP,"Tallgrass Energy Partners, LP",51.46,257940,1.01,2.35,408
+FPO,First Potomac Realty Trust,11.19,526298,1.01,0.72,418
+MTGE,American Capital Mortgage Investment Corp.,18.95,389483,0.97,1.34,413
+INFY,Infosys Limited,15.47,5372611,0.93,0.98,415
+FGEN,"FibroGen, Inc",33.45,410743,0.91,2.76,418
+WSO,"Watsco, Inc.",154.38,244223,0.91,0.55,404
+CSRA,CSRA Inc.,32.18,896006,0.89,1.0,408
+UNIT,Uniti Group Inc. - Common Stock,25.14,1059865,0.84,3.8,407
+VRNS,"Varonis Systems, Inc.",38.75,324074,0.84,3.33,407
+PINC,"Premier, Inc.",35.79,357002,0.82,1.62,411
+AMH,American Homes 4 Rent,22.6,1727802,0.82,0.8,407
+PBCT,"People's United Financial, Inc.",17.8,2414022,0.81,0.06,412
+XPER,Xperi Corporation ,33.0,359312,0.81,1.38,404
+FMBI,"First Midwest Bancorp, Inc.",23.51,618896,0.79,-0.08,418
+HQY,"HealthEquity, Inc.",49.76,379902,0.78,2.69,416
+VRTX,Vertex Pharmaceuticals Incorporated,132.17,1336519,0.78,2.73,407
+SAGE,"Sage Therapeutics, Inc.",80.43,292143,0.75,1.62,409
+ECPG,Encore Capital Group Inc,40.3,212283,0.74,1.64,401
+VEEV,Veeva Systems Inc.,62.93,1295519,0.73,1.26,407
+HSC,Harsco Corporation,16.3,428664,0.73,1.24,416
+DRH,Diamondrock Hospitality Company,11.33,1647665,0.72,1.61,401
+QLYS,"Qualys, Inc.",41.65,220817,0.71,2.33,410
+STAY,"Extended Stay America, Inc.",19.44,2187747,0.71,1.41,408
+PCH,Potlatch Corporation,45.7,199075,0.7,0.77,412
+DOX,Amdocs Limited,64.79,415315,0.69,0.53,401
+SMG,Scotts Miracle-Gro Company (The),92.07,390838,0.69,1.14,408
+PAG,"Penske Automotive Group, Inc.",43.8,301528,0.67,0.99,412
+MPLX,MPLX LP,33.89,1183352,0.66,1.35,413
+REXR,"Rexford Industrial Realty, Inc.",27.46,349795,0.65,1.1,410
+KITE,"Kite Pharma, Inc.",103.7,854050,0.62,2.54,414
+SITE,"SiteOne Landscape Supply, Inc.",52.87,332215,0.61,0.49,295
+SMCI,"Super Micro Computer, Inc.",24.6,226518,0.61,1.03,408
+AXTA,Axalta Coating Systems Ltd.,32.71,883307,0.61,0.86,405
+MDXG,"MiMedx Group, Inc",15.06,848104,0.59,2.94,413
+AFSI,"AmTrust Financial Services, Inc.",15.14,1538124,0.53,1.07,407
+SSNC,"SS&C Technologies Holdings, Inc.",39.01,696890,0.53,0.62,408
+PRAA,"Portfolio Recovery Associates, Inc.",38.4,226784,0.48,1.72,411
+RARE,Ultragenyx Pharmaceutical Inc.,63.76,192176,0.48,3.71,410
+DATA,"Tableau Software, Inc.",62.92,597537,0.47,1.04,402
+TRU,TransUnion,44.01,483872,0.44,0.69,408
+WATT,Energous Corporation,16.18,135008,0.43,1.44,404
+WES,"Western Gas Partners, LP Limited Partner Inte",56.15,160254,0.39,0.52,404
+IRWD,"Ironwood Pharmaceuticals, Inc.",19.24,481588,0.39,1.8,415
+ALRM,"Alarm.com Holdings, Inc.",37.27,132041,0.38,0.78,410

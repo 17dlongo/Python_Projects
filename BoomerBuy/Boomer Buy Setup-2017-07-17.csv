@@ -1,0 +1,8 @@
+symbol,name,close_price,volume,vol_vs_avg,change_in_percent,days_old
+PGR,Progressive Corporation (The),45.45,5069538,1.63,-0.29,414
+AMTD,TD Ameritrade Holding Corporation,44.78,3196675,1.34,-0.51,408
+WBMD,WebMD Health Corp,55.92,483496,0.88,0.85,406
+AAL,"American Airlines Group, Inc.",53.87,3727404,0.65,-0.65,409
+HAS,"Hasbro, Inc.",112.84,466378,0.64,-0.27,401
+ANTM,"Anthem, Inc.",192.09,942275,0.64,-0.24,370
+BPMC,Blueprint Medicines Corporation,52.9,223550,0.45,1.28,407

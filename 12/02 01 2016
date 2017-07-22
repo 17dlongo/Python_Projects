@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="en" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="en" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="en" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--><html lang="en"><!--<![endif]-->
+<head>
+<meta charset='utf-8'>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"bc3de9f687","applicationID":"3048879","transactionName":"JlpcQ0NYWFlUSh0XQQRBW1RuR1VSVEsdDFoIUA==","queueTime":3,"applicationTime":18,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1044.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+<meta content='width=device-width, initial-scale=1.0' name='viewport'>
+<meta content='gbS2QFCx2US5jk5IQ1L9OSwhV3_i-Rmtsn1raBU9GaA' name='google-site-verification'>
+<meta content='71EB93876B06A25E796FAE1404188A15' name='msvalidate.01'>
+<meta content='none' name='msapplication-config'>
+<link href='https://plus.google.com/u/0/+MichaelSeneadza' rel='author'>
+<link href='/blog/feed/' rel='alternate' title='RSS Feed for the SwingTradeBot.com Blog' type='application/rss+xml'>
+<title>SwingTradeBot - Your Stock Trading Assistant | SwingTradeBot.com</title>
+<link href='/apple-touch-icon-57x57.png' rel='apple-touch-icon' sizes='57x57'>
+<link href='/apple-touch-icon-60x60.png' rel='apple-touch-icon' sizes='60x60'>
+<link href='/apple-touch-icon-72x72.png' rel='apple-touch-icon' sizes='72x72'>
+<link href='/apple-touch-icon-76x76.png' rel='apple-touch-icon' sizes='76x76'>
+<link href='/apple-touch-icon-114x114.png' rel='apple-touch-icon' sizes='114x114'>
+<link href='/apple-touch-icon-120x120.png' rel='apple-touch-icon' sizes='120x120'>
+<link href='/apple-touch-icon-144x144.png' rel='apple-touch-icon' sizes='144x144'>
+<link href='/apple-touch-icon-152x152.png' rel='apple-touch-icon' sizes='152x152'>
+<link href='/apple-touch-icon-180x180.png' rel='apple-touch-icon' sizes='180x180'>
+<link href='/favicon.ico' rel='icon' type='image/x-icon'>
+<link href='/favicon-32x32.png' rel='icon' sizes='32x32' type='image/png'>
+<link href='/android-chrome-192x192.png' rel='icon' sizes='192x192' type='image/png'>
+<link href='/favicon-96x96.png' rel='icon' sizes='96x96' type='image/png'>
+<link href='/favicon-16x16.png' rel='icon' sizes='16x16' type='image/png'>
+<meta content='#00aba9' name='msapplication-TileColor'>
+<meta content='/mstile-144x144.png' name='msapplication-TileImage'>
+<meta content='#ffffff' name='theme-color'>
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="KbqLe+QLY+ASTKu0sVxjCXStegsSEbsjw5kerSQ1jmpYuhqVr8S4RcGd04v+E7y/vi/OxdrmNn11o9m3TuzYUA==" />
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  
+  ga('create', 'UA-43803665-1', 'swingtradebot.com');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+  
+  window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=t.forceSSL||"https:"===document.location.protocol,a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src=(r?"https:":"http:")+"//cdn.heapanalytics.com/js/heap-"+e+".js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n);for(var o=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","removeEventProperty","setEventProperties","track","unsetEventProperty"],c=0;c<p.length;c++)heap[p[c]]=o(p[c])};
+    heap.load("2286492232");
+</script>
+
+<script async='' src='//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-0320071028274387",
+    enable_page_level_ads: true
+  });
+</script>
+
+<!-- Ensure devices display responsive pages properly -->
+<meta content='width=device-width, initial-scale=1.0' name='viewport'>
+<!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+<!--[if lt IE 9]>
+<script src='http://html5shim.googlecode.com/svn/trunk/html5.js' type='text/javascript'></script>
+<![endif]-->
+<!-- Le fonts -->
+<link rel="stylesheet" media="screen" href="//fonts.googleapis.com/css?family=Droid+Sans:400,700" />
+<!-- Le styles -->
+<link rel="stylesheet" media="all" href="/assets/application-7533c393b99bba58777f35058435df4c6ae0f425f38152d5602b07f90a6ed168.css" />
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+<script src="/assets/application-24a833ce3f4d34250d20b72be76fb4c2ead9b82b8b6b9698fe1301e0d951bec3.js"></script>
+
+<!-- Le fav and touch icons -->
+<link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
+
+</head>
+<body class='container'>
+<div id='main-content'>
+<nav class='navbar'>
+<div class='navbar-header'>
+<button class='navbar-toggle collapsed' data-target='#main-navigation' data-toggle='collapse' type='button'>
+<span class='sr-only'>Toggle navigation</span>
+<i class='fa fa-bars'></i>
+</button>
+<a class='navbar-brand' href='/'>
+<img src="/assets/SwingTradeBot-Logo-2-8ea67d43afe35b49a3966bba0ba5aba2a6e5781f583c2de546cc26533970e0db.png" alt="Swingtradebot logo 2" />
+</a>
+</div>
+<div class='collapse navbar-collapse' id='main-navigation'>
+<ul class='nav navbar-nav navbar-right'>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+Research
+<span class='caret'></span>
+</a>
+<ul class='dropdown-menu'>
+<li><a href="/stock-screens/listing">Technical Analysis Scans</a></li>
+<li><a href="/equities/general-market-analysis">General Market Overview</a></li>
+<li><a href="/mike_notes">Trader Mike&#39;s Notes</a></li>
+<li class='divider'></li>
+<li><a href="/equities/recent-ipos">Recent IPOs</a></li>
+<li><a href="/equities/most-tracked">Most Tracked Stocks</a></li>
+<li><a href="/equities">All Stocks</a></li>
+<li>
+<a data-toggle="dropdown" href="#">ETFs
+<span class='caret'></span>
+</a><ul class='dropdown-menu'>
+<li><a href="/equities/all-etfs">All ETFs</a></li>
+<li><a href="/equities/inverse-etfs">List of Inverse ETFs</a></li>
+<li><a href="/equities/ultra-etfs">List of Ultra / Leveraged ETFs</a></li>
+</ul>
+</li>
+<li>
+<a data-toggle="dropdown" href="#">Sectors
+<span class='caret'></span>
+</a><ul class='dropdown-menu'>
+<li>
+<a href="/sectors/8-basic-materials">Basic Materials</a>
+</li>
+<li>
+<a href="/sectors/7-cyclical-consumer-goods-services">Cyclical Consumer Goods &amp; Services</a>
+</li>
+<li>
+<a href="/sectors/1-energy">Energy</a>
+</li>
+<li>
+<a href="/sectors/6-financials">Financials</a>
+</li>
+<li>
+<a href="/sectors/3-healthcare">Healthcare</a>
+</li>
+<li>
+<a href="/sectors/4-industrials">Industrials</a>
+</li>
+<li>
+<a href="/sectors/9-non-cyclical-consumer-goods-services">Non-Cyclical Consumer Goods &amp; Services</a>
+</li>
+<li>
+<a href="/sectors/2-technology">Technology</a>
+</li>
+<li>
+<a href="/sectors/10-telecommunications-services">Telecommunications Services</a>
+</li>
+<li>
+<a href="/sectors/5-utilities">Utilities</a>
+</li>
+
+</ul>
+</li>
+<li><a href="/faq">FAQ</a></li>
+</ul>
+</li>
+
+<li><a href="/users/sign_in">Login</a></li>
+<li><a class="btn btn-outline-primary sign-up" href="/users/sign_up">Sign up</a></li>
+</ul>
+</div>
+</nav>
+<div class='search'>
+<div class='col-xs-12 col-md-offset-9 hidden-md hidden-lg'>
+<form action='/equities/search_ticker' class='inline search-form' method='get'>
+<div class='input-group'>
+<input autocapitalize='characters' autocorrect='off' class='form-control' name='search' placeholder='Ticker Symbol' type='text'>
+<span class='input-group-btn'>
+<button class='btn btn-sm btn-primary' data-disable-with='&lt;i class=&#39;fa fa-refresh fa-lg fa-spin&#39;&gt;&lt;/i&gt; Searching...' type='submit' value='Search'>
+<i class='fa fa-search fa-lg'></i>
+</button>
+</span>
+</div>
+</form>
+
+</div>
+</div>
+
+<section class='col-xs-12 col-sm-12 col-md-12 col-lg-12'>
+<div class='alert alert-warning alert-dismissable fade in'>
+<button aria-hidden='true' class='close' data-dismiss='alert' type='button'>×</button>
+<i class="fa fa-info-sign"></i>
+You must be subscribed to the Gold or Platinum plan to export to CSV. You can upgrade via the Account Menu.
+</div>
+
+<div class='col-md-10 col-md-offset-1'></div>
+<div class='col-md-6'>
+<div class='text text-center'>
+<h1>Helping you trade better.</h1>
+<p class='lead text-center'><strong>SwingTradeBot</strong> was created to help you stay on top of the market.  It watches your stocks and scans the market for important technical developments and alerts you when it's time to take action.</p>
+</div>
+</div>
+<div class='col-md-6'>
+<div class='text text-center'>
+<form action='/equities/search_ticker' class='inline' method='get'>
+<div class='form-group'>
+<input autocapitalize='characters' autocorrect='off' class='search' name='search' placeholder='Ticker Symbol' type='text'>
+</div>
+<div class='form-group'>
+<button class='btn btn-primary btn-lg expand' data-disable-with='&lt;i class=&#39;fa fa-refresh fa-lg fa-spin&#39;&gt;&lt;/i&gt; Analyzing...' type='submit' value='Search'>
+<i class='fa fa-line-chart fa-lg'>&nbsp;&nbsp;Analyze Your Stock</i>
+</button>
+</div>
+</form>
+</div>
+</div>
+<hr>
+<section class='features'>
+<div class='col-md-10 col-md-offset-1'>
+<div class='col-md-12 col-lg-4'>
+<h1>Features</h1>
+<ul>
+<li><a href="/stock-screens/listing">Technical Analysis Scans</a></li>
+<li><a href="/equities/general-market-analysis">Broad Market Analysis</a></li>
+<li>End-of-day email updates on your stocks</li>
+<li><a href="/equities/recent-ipos">Recent IPOs</a></li>
+<li><a href="/mike_notes">Trader Mike&#39;s Notes</a></li>
+<li>An objective technical read on your stocks and the market</li>
+</ul>
+<div class='text-cemter'>
+<a class="btn btn-primary btn-lg center-block" href="/users/sign_up">Get Started Now!</a>
+<br>
+<em>
+Get started for free or try one of our Pro Plans.
+<a href="/pricing">See Pricing</a>
+</em>
+</div>
+</div>
+<div class='col-md-12 col-lg-8'>
+<div class='col-md-6 col-lg-6'>
+<section>
+<div class='text-center'>
+<i class='fa fa-list fa-3x'></i>
+</div>
+<h4>Watchlist & Portfolio</h4>
+<a href="#"></a><p>The bot alerts you to important technical signals on your stock lists.</p>
+</section>
+</div>
+<div class='col-md-6 col-lg-6'>
+<section>
+<div class='text-center'>
+<i class='fa fa-eye fa-3x'></i>
+</div>
+<h4>Identify the Best Stocks</h4>
+<a href="#"></a><p>The bot will help you to find strong stocks to buy & weak stocks to short sell.</p>
+</section>
+</div>
+<div class='col-md-6 col-lg-6'>
+<section>
+<div class='text-center'>
+<i class='fa fa-check-circle-o fa-3x'></i>
+</div>
+<h4>Manage Your Routine</h4>
+<a href="#"></a><p>Helps you obtain consistent results by sticking to your routine.</p>
+</section>
+</div>
+<div class='col-md-6 col-lg-6'>
+<section>
+<div class='text-center'>
+<i class='fa fa-line-chart fa-3x'></i>
+</div>
+<h4>Trade with the Trend</h4>
+<a href="#"></a><p>"Successful traders always follow the line of least resistance. Follow the trend. The trend is your friend." -- Jesse Livermore. The bot uses consistent, objective criteria to identify trends.</p>
+</section>
+</div>
+<div class='col-md-6 col-lg-6'>
+<section>
+<div class='text-center'>
+<i class='fa fa-sign-out fa-3x'></i>
+</div>
+<h4>Know when to Exit</h4>
+<a href="#"></a><p>It's easy to get into trades but tough to know when to get out.  Exits are where the money is made.  The bot identifies and alerts you to exit points.</p>
+</section>
+</div>
+<div class='col-md-6 col-lg-6'>
+<section>
+<div class='text-center'>
+<i class='fa fa-meh-o fa-3x'></i>
+</div>
+<h4>Trade without Emotion</h4>
+<a href="#"></a><p>The bot helps you to, well, trade like a robot.  It always has an unemotional view of the markets.</p>
+</section>
+</div>
+</div>
+</div>
+</section>
+<section>
+<div class='container'>
+<div class='row'>
+<hr>
+<div class='col-md-6 col-md-offset-3'>
+<h3 class='text-center'><a href="/testimonials">Testimonials</a></h3>
+<div class='carousel slide' data-ride='carousel' id='quote-carousel'>
+<!-- Bottom Carousel Indicators -->
+<ol class='carousel-indicators'>
+<li class='active' data-slide-to='0' data-target='#quote-carousel'></li>
+<li data-slide-to='1' data-target='#quote-carousel'></li>
+<li data-slide-to='2' data-target='#quote-carousel'></li>
+<li data-slide-to='3' data-target='#quote-carousel'></li>
+<li data-slide-to='4' data-target='#quote-carousel'></li>
+<li data-slide-to='5' data-target='#quote-carousel'></li>
+</ol>
+<!-- Carousel Slides / Quotes -->
+<div class='carousel-inner'>
+<!-- Quote 1 -->
+<div class='item'>
+<div class='row'>
+<div class='col-sm-12'>
+<p>“Fantastic site... clean, simple & effective. Looks pretty spot on based on some spot back-testing I have done. Great work.. thanks!”</p>
+<small>
+<strong>
+<a href='https://swingtradebot.com/blog/how-i-use-swingtradebot#comment-2038486830'>Chris L.</a>
+</strong>
+</small>
+</div>
+</div>
+</div>
+<!-- Quote 1.1 -->
+<div class='item'>
+<div class='row'>
+<div class='col-sm-12'>
+<p>“What a fantastic tool! I’m normally solely a fundamental analyst but SwingTradeBot has made it simple for me to get a highly detailed technical overview of stocks instantly. Extremely easy to use and not just data, it gives you usable conclusions.”</p>
+<small>
+<strong>
+<a href='https://www.seantowers.com/swingtradebot-instant-technical-analysis'>Sean Towers</a>
+</strong>
+</small>
+</div>
+</div>
+</div>
+<!-- Quote 2 -->
+<div class='item'>
+<div class='row'>
+<div class='col-sm-12'>
+<p>“Hi Mike,  found you by accident and a friend of mine and I have been watching DE and FCAU,  your bot has been quite predictive and accurate for getting in and out so far.  Actually we are amazed to be honest... I'm just sort of amazed to stumble upon something this helpful.”</p>
+<small>
+<strong>Russell V.</strong>
+</small>
+</div>
+</div>
+</div>
+<!-- Quote 3 -->
+<div class='item active'>
+<div class='row'>
+<div class='col-sm-12'>
+<p>“Thank you for this website! It cuts out so much homework time. The website is like having a trading partner. :-)”</p>
+<small>
+<strong>Simon K.</strong>
+</small>
+</div>
+</div>
+</div>
+<!-- Quote 4 -->
+<div class='item'>
+<div class='row'>
+<div class='col-sm-12'>
+<p>“Mike you have saved me so much time searching through charts, this site is so good ......thank you so much :)”</p>
+<small>
+<strong>
+<a href='https://swingtradebot.com/blog/how-i-use-swingtradebot#comment-2582675160'>Perry</a>
+</strong>
+</small>
+</div>
+</div>
+</div>
+<!-- Quote 5 -->
+<div class='item'>
+<div class='row'>
+<div class='col-sm-12'>
+<p>“Wow Mike! I really like your site! Thank you so much for sharing all of your hard work and knowledge with us. You are really a blessing! I am very new at this (only a couple of weeks) and have been spending all of my free time learning about trading, candlesticks and their meanings. Your site really brings together everything I have been looking for...”</p>
+<small>
+<strong>
+<a href='https://swingtradebot.com/blog/how-i-use-swingtradebot#comment-2582675160'>Sonia</a>
+</strong>
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</section>
+<hr>
+
+<!-- /#content -->
+
+</section>
+</div>
+<div id='footer'>
+<footer class='clearfix'>
+<div id='footer-widgets'>
+<div class='container'>
+<div id='footer-wrapper'>
+<div class='row'>
+<div class='col-sm-6 col-md-3'>
+<div class='widget widgetFooter widget_meta' id='meta-3'>
+<ul>
+<li>
+<a href="/"><i class='fa fa-home fa-fw'></i>
+Home
+</a></li>
+<li>
+<a href="/faq"><i class='fa fa-question-circle'></i>
+FAQ
+</a></li>
+<li>
+<a href="/testimonials"><i class='fa fa-comments'></i>
+Testimonials
+</a></li>
+<li>
+<a href="/blog"><i class='fa fa-rss'></i>
+Blog
+</a></li>
+<li>
+<a href="/about"><i class='fa fa-info-circle'></i>
+About / Contact
+</a></li>
+<li>
+<a href='/disclaimer'>
+<i class='fa fa-gavel'></i>
+Disclaimer
+</a>
+</li>
+</ul>
+</div>
+</div>
+<!-- end widget1 -->
+<div class='col-sm-6 col-md-3'>
+<div class='widget widgetFooter widget_recent_entries' id='recent-posts-3'>
+<ul>
+<li>
+<a href='http://stocktwits.com/swingtradebot' target='_blank'>
+StockTwits
+</a>
+</li>
+<li>
+<a href='https://www.facebook.com/SwingTradeBot' target='_blank'>
+<i class='fa fa-facebook'></i>
+Facebook
+</a>
+</li>
+<li>
+<a href='https://www.twitter.com/SwingTradeBot' target='_blank'>
+<i class='fa fa-twitter'></i>
+Twitter
+</a>
+</li>
+</ul>
+</div>
+</div>
+<!-- end widget1 -->
+<div class='col-sm-6 col-md-6'>
+<div class='widget widgetFooter widget_meta' id='meta-4'>
+<ul>
+<li>
+<a href='https://asx.swingtradebot.com' target='_blank'>
+SwingTradeBot Australia (ASX)
+</a>
+</li>
+<li>
+<a href='https://canada.swingtradebot.com' target='_blank'>
+SwingTradeBot Canada (TSX & TSXV)
+</a>
+</li>
+<li>
+<a href='https://hkex.swingtradebot.com' target='_blank'>
+SwingTradeBot Hong Kong (HKEX)
+</a>
+</li>
+<li>
+<a href='https://india.swingtradebot.com' target='_blank'>
+SwingTradeBot India (BSE & NSE)
+</a>
+</li>
+<li>
+<a href='https://lse.swingtradebot.com' target='_blank'>
+SwingTradeBot London / UK
+</a>
+</li>
+<li>
+<a href='https://otcbb.swingtradebot.com' target='_blank'>
+SwingTradeBot OTCBB (USA)
+</a>
+</li>
+<li>
+<a href='https://sgx.swingtradebot.com' target='_blank'>
+SwingTradeBot Singapore (SGX)
+</a>
+</li>
+<li>
+<a href='https://swingtradebot.com' target='_blank'>
+SwingTradeBot USA (NYSE, NASDAQ & AMEX)
+</a>
+</li>
+</ul>
+</div>
+</div>
+<!-- end widget1 -->
+</div>
+</div>
+</div>
+</div>
+<!-- end .row -->
+<!-- end #footer-wrapper -->
+<!-- end .container -->
+<!-- end #footer-widgets -->
+<div id='sub-floor'>
+<div class='container'>
+<div class='row'>
+<div class='col-md-4 copyright'>
+&copy; 2017 SwingTradeBot. All rights reserved.
+</div>
+<div class='col-md-6 col-md-offset-2 attribution'>
+Developed with <i class='fa fa-heart icon-red'></i> in Atlanta by
+<a href='http://michaelseneadza.com' target='_blank'>Michael Seneadza</a>
+.
+</div>
+</div>
+<!-- end .row -->
+</div>
+</div>
+</footer>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<script>
+  var clicky_site_ids = clicky_site_ids || [];
+  clicky_site_ids.push(100737522);
+  (function() {
+    var s = document.createElement('script');
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = '//static.getclicky.com/js';
+    ( document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0] ).appendChild( s );
+  })();
+</script>
+<noscript>
+<p>
+<img alt='Clicky' height='1' src='//in.getclicky.com/100737522ns.gif' width='1'>
+</p>
+</noscript>
+<!-- Quantcast Tag -->
+<script>
+  var _qevents = _qevents || [];
+  
+  (function() {
+  var elem = document.createElement('script');
+  elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+  elem.async = true;
+  elem.type = "text/javascript";
+  var scpt = document.getElementsByTagName('script')[0];
+  scpt.parentNode.insertBefore(elem, scpt);
+  })();
+  
+  _qevents.push({
+  qacct:"p-Qx2QkCgG8L-ne"
+  });
+</script>
+<noscript>
+<div style='display:none;'>
+<img alt='Quantcast' border='0' height='1' src='//pixel.quantserve.com/pixel/p-Qx2QkCgG8L-ne.gif' width='1'>
+</div>
+</noscript>
+<!-- End Quantcast tag -->
+
+<script type="text/javascript">
+  /* <![CDATA[ */
+  var bannersnack_userid = 26458076;
+  /* ]]> */
+</script>
+<script type="text/javascript" src="//s3.amazonaws.com/files.bannersnack.com/tracking/trackingCode.js"></script>
+</div>
+<script id="IntercomSettingsScriptTag">window.intercomSettings = {"app_id":"kdef2k1q"};(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/kdef2k1q';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}};})()</script>
+</body>
+</html>

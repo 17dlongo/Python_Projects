@@ -1,0 +1,15 @@
+from lxml import html
+import requests
+from xml import etree
+from lxml import html
+import requests
+import xml.etree.ElementTree as ET
+import itertools
+import csv
+import time    
+
+URL = 'https://finance.yahoo.com/quote/aapl?p=aapl'
+page = requests.get(URL)
+tree = html.fromstring(page.content)
+text = tree.xpath('//*[@id="quote-header-info"]/div[3]/div[1]/div/span[2]')
+print('text',text)

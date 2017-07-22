@@ -1,0 +1,6 @@
+symbol,name,close_price,volume,vol_vs_avg,change_in_percent,days_old
+YRCW,"YRC Worldwide, Inc.",12.18,579934,0.64,2.44,406
+SC,Santander Consumer USA Holdings Inc.,13.29,1403516,0.56,1.61,411
+ALNY,"Alnylam Pharmaceuticals, Inc.",78.9,666548,0.55,-0.13,409
+WBAI,500.com Limited,10.82,107581,0.27,0.28,406
+GLYC,"GlycoMimetics, Inc.",10.95,335265,0.1,1.39,401
